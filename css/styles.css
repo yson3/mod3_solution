@@ -1,0 +1,32 @@
+#container {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid-row-text {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+li {
+	border: 1px solid black;
+}
+
+ul {
+	border: 1px solid black;
+}
+
+.grid-row {
+	background-color: #1aa3ff;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	#container {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
